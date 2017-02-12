@@ -35,7 +35,7 @@
   var answer = alert
   if ( answer === 'Javascript' ) {
   }
-  if (number == 25) {
+  if (number === 25) {
     console.log("You got the corrrect answer!")
 }
 else if(number <= 24){
@@ -45,3 +45,4 @@ else if(number <= 24){
     alert("Wrong answer try again")
 
 }
+alert("you got x many answers right")
