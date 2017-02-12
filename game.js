@@ -1,5 +1,6 @@
-  prompt("Are you ready to play!");
 
+
+  prompt("Are you ready to play!");
   confirm("Lets get this party started!")
   var age = prompt("How old am I?");
   if (age < 24) {
@@ -31,14 +32,16 @@
   alert("Favorite color is blue")
 
   var number = prompt("Whats my favorite number in the twentys")
-
+  var answer = alert
+  if ( answer === 'Javascript' ) {
+  }
   if (number == 25) {
     console.log("You got the corrrect answer!")
-
-  }
+}
 else if(number <= 24){
     console.log("not that low!")
 }
    else {
     alert("Wrong answer try again")
-  }
+
+}
