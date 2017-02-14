@@ -1,6 +1,13 @@
 p{
   background-color: blue;
+  text-align: center;
+  color:brown;
 }
 body{
-background-color: yellow;
+background-color: beige;
+
+}
+
+button{
+  color: green;
 }
