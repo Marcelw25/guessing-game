@@ -1,6 +1,6 @@
 
 
-  prompt("Are you ready to play!");
+prompt("Are you ready to play!");
   default:blue;
   confirm("Lets get this party started!")
   var age = prompt("How old am I?");
