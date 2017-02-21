@@ -97,7 +97,7 @@ function questionFive(){
 
 //BEGINNING of all of my FUNCTIONS!
 
-function guessingGame(){
+function playGame(){
   count = 0;
   result = "";
   questionOne()
@@ -111,7 +111,7 @@ function guessingGame(){
   };
 
 
-function scoreTotal(){
+function scoreResults(){
   var score = document.getElementById("total");
   score.innerHTML = "Your current score is "+ count + " out of 4." ;
   if (count >= 4) {
