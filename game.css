@@ -16,4 +16,14 @@ button{
   display: block;
   margin-left: 275px;
   color: white;
+  background-color: blue;
+  text-align: center;
+  color:brown;
+}
+body{
+background-color: beige;
+
+}
+button{
+  color: green;
 }
