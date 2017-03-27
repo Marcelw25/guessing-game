@@ -1,11 +1,13 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
   <title>
     Git Hub guessing-game
   </title>
-<script text="text/javascript" src="game.js"></script>
-<link rel="stylesheet" type="text/css" href="game.css"/>
+  <script text="text/javascript" src="game_app.js"></script>
+  <link rel="stylesheet" type="text/css" href="game.css"/>
 </head>
 
 
@@ -15,6 +17,15 @@
     <p>I will be asking you multiply questions all about me to see how well we know each other!</p>
     <p>Thanks for playing!</p>
     <p>This is the worlds best guessing guessing-game!</p>
+    <button onclick="functionOne()">Please Log In</button>
+    <p id="name"></p>
+    <button onclick="playGame()">Play the Guessing Game</button>
+    <p id="answer"></p>
+    <button onclick="scoreResults()">Find out your total Score here!</button>
+    <p id="total"></p>
+    <img src="images/google.jpeg"/>
+
+
     <button type="radio" onclick="greetPerson(getUserName())">Touch Me</button>
   </body>
   </html>

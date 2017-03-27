@@ -1,4 +1,21 @@
 p{
+  text-align:center;
+  color: #00FFAA
+}
+body{
+background-color: beige;
+border: 4px dotted;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+button{
+  display: block;
+  margin-left: 275px;
+  color: white;
   background-color: blue;
   text-align: center;
   color:brown;
@@ -7,7 +24,6 @@ body{
 background-color: beige;
 
 }
-
 button{
   color: green;
 }
